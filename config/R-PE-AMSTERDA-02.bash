@@ -16,12 +16,14 @@ interface GigabitEthernet0/0/0
  ospf enable 1 area 0.0.0.0
  quit
 ospf 1
+ import-route static
  area 0
 
 # CONFIGURAÇÃO DAS INTERFACES DO PE COM OS CLIENTES
-
-interface GigabitEthernet0/0/3 
- description ACMECORP_ROT_ESCRITORIO
+interface GigabitEthernet0/0/3.50
+ dot1q termination vid 50
  ip address 172.28.255.245 255.255.255.252
- ospf network-type p2p
- ospf enable 1 area 0.0.0.0
+ quit
+
+ip route-static 10.10.40.0 24 172.28.255.246
+ 
