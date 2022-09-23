@@ -28,5 +28,22 @@ interface GigabitEthernet0/0/23
  port link-type access
  port default vlan 10
  quit
+interface GigabitEthernet0/0/22
+ port link-type access
+ port default vlan 10
+ quit
 
 ip route-static 0.0.0.0 0.0.0.0 172.28.255.253
+
+# CRIAÇÃO E APLICAÇÃO DA ACL
+
+acl name ACL-PROTECAO-SIP-5060
+ rule 20 permit ip source 10.10.10.253 0 destination 10.10.60.254 0
+ rule 30 deny tcp destination 10.10.60.254 0 destination-port eq 5060
+
+acl name ACL-PROTECAO-ICMP
+  rule 20 permit icmp source 10.10.10.253 0 destination 10.10.60.254 0 
+  rule 30 deny icmp destination 10.10.60.254 0
+
+traffic-filter inbound acl name ACL-PROTECAO-ICMP
+traffic-filter inbound acl name ACL-PROTECAO-SIP-5060
