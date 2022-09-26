@@ -8,7 +8,7 @@
                 <interface sztype="Serial" interfacename="Serial" count="4" />
             </slot>
         </dev>
-        <dev id="1A79D626-E9DF-42f5-AAA5-16150C87C92F" name="SW-ROT-01" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-E2-66-15" com_port="2006" bootmode="0" cx="373.000000" cy="371.000000" edit_left="400" edit_top="425">
+        <dev id="1A79D626-E9DF-42f5-AAA5-16150C87C92F" name="SW-ROT-01" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-E2-66-15" com_port="2006" bootmode="0" cx="373.000000" cy="371.000000" edit_left="400" edit_top="355">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
@@ -59,7 +59,7 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="24A54906-56DF-4326-8270-F113BDD11BC8" name="PC3" poe="0" model="PC" settings=" -simpc_ip 10.10.10.253  -simpc_mask 255.255.255.0  -simpc_gateway 10.10.10.1  -simpc_mac 54-89-98-76-03-CB  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-76-03-CB" com_port="0" bootmode="0" cx="153.000000" cy="458.000000" edit_left="180" edit_top="512">
+        <dev id="999205A2-A6ED-4297-948D-7ADCB5B210D8" name="Server3" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-57-23-9F -ipaddr 10.10.10.254 -ipmask 255.255.255.0 -gateway 10.10.10.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-CB-43-72" com_port="0" bootmode="0" cx="156.000000" cy="368.000000" edit_left="183" edit_top="422">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -74,7 +74,7 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="999205A2-A6ED-4297-948D-7ADCB5B210D8" name="Server3" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-57-23-9F -ipaddr 10.10.10.254 -ipmask 255.255.255.0 -gateway 10.10.10.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-CB-43-72" com_port="0" bootmode="0" cx="156.000000" cy="368.000000" edit_left="183" edit_top="422">
+        <dev id="24A54906-56DF-4326-8270-F113BDD11BC8" name="PC3" poe="0" model="PC" settings=" -simpc_ip 10.10.10.253  -simpc_mask 255.255.255.0  -simpc_gateway 10.10.10.1  -simpc_mac 54-89-98-76-03-CB  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-76-03-CB" com_port="0" bootmode="0" cx="153.000000" cy="458.000000" edit_left="180" edit_top="512">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -129,7 +129,7 @@
         <shape type="1" filloption="1" color="13199922" upleftcorner="414,528" width="0" height="0" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
         <shape type="1" filloption="1" color="12632256" upleftcorner="102,238" width="512" height="309" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
         <shape type="1" filloption="1" color="10087061" upleftcorner="1012,89" width="465" height="342" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
-        <shape type="1" filloption="1" color="10087061" upleftcorner="1003,437" width="476" height="340" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="10087061" upleftcorner="1004,437" width="476" height="340" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
         <shape type="2" filloption="1" color="11052793" upleftcorner="510,113" width="557" height="540" startpt="0,0" endpt="0,0" borderStyle="1" borderWidth="2" />
     </shapes>
     <txttips>
